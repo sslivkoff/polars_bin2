@@ -15,6 +15,7 @@ Most of the functions in `polars_bin2` are currently implemented by 1) encoding 
 Importing `polars_bin2` registers the namespace.
 
 ```python
+import polars as pl
 import polars_bin2
 
 addresses = [
@@ -25,6 +26,18 @@ addresses = [
 
 series = pl.Series('address', addresses)
 print(series.bin2.lengths())
+```
+
+output:
+
+```
+shape: (3,)
+Series: 'address' [i64]
+[
+        20
+        20
+        20
+]
 ```
 
 ## Available functions in each namespace
