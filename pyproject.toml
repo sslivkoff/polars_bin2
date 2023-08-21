@@ -1,0 +1,21 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "polars_bin2"
+readme = "README.md"
+requires-python = ">=3.7"
+dynamic = ["version", "description"]
+license = {file = "LICENSE-APACHE"}
+dependencies = [
+]
+
+[project.urls]
+Source = "https://github.com/sslivkoff/polars_bin2"
+
+[tool.mypy]
+strict = true
+implicit_reexport = true
+files = ["polars_bin2"]
+
