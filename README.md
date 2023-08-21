@@ -2,9 +2,9 @@
 
 An enhanced `bin` namespace for polars.
 
-The polars `str` namespace contains many functions that would also be useful to have in the `bin` namespace. The `polars_bin2` package implements these functions in the `bin2` namespace for both Series and Expr in polars.
+The polars `str` namespace contains many functions that would also be useful to have in the `bin` namespace. The `polars_bin2` package implements these functions by creating a `bin2` namespace.
 
-Most of the functions in `polars_bin2` are currently implemented by 1) encoding binary data as `str`, 2) using the `str` namespace, and 3) converting the result approximately.
+Most of the functions in `polars_bin2` are currently implemented by 1) encoding binary data as `str`, 2) using the `str` namespace, and 3) converting the result appropriately.
 
 ## Installation
 
@@ -12,7 +12,7 @@ Most of the functions in `polars_bin2` are currently implemented by 1) encoding 
 
 ## Example Usage
 
-Importing `polars_bin2` registers the namespace.
+Importing `polars_bin2` registers the namespace for both `Series` and `Expr` objects.
 
 ```python
 import polars as pl
