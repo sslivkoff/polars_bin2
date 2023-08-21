@@ -6,6 +6,10 @@ The polars `str` namespace contains many functions that would also be useful to 
 
 Most of the functions in `polars_bin2` are currently implemented by 1) encoding binary data as `str`, 2) using the `str` namespace, and 3) converting the result approximately.
 
+## Installation
+
+`pip install polars_bin2`
+
 ## Example Usage
 
 Importing `polars_bin2` registers the namespace.
