@@ -13,27 +13,27 @@ Most of the functions in `polars_bin2` are currently implemented by 1) encoding 
 | function | `str` | `bin` | `bin2` | description |
 | -------: | :---: | :---: | :----: | --- |
 |        `concat`| ✅ | ❌ | - | concatenate series into single value |
-|      `contains`| ✅ | ✅ | - | check if value contains subvalue |
+|      `contains`| ✅ | ✅ | ✅ | check if value contains subvalue |
 |   `count_match`| ✅ | ❌ | - | count number of occurences |
-|        `decode`| ✅ | ✅ | - | decode using provided encoding |
-|        `encode`| ✅ | ✅ | - | encode using provided encoding |
-|     `ends_with`| ✅ | ✅ | - | check if value ends with subvalue |
+|        `decode`| ✅ | ✅ | ✅ | decode using provided encoding |
+|        `encode`| ✅ | ✅ | ✅ | encode using provided encoding |
+|     `ends_with`| ✅ | ✅ | ✅ | check if value ends with subvalue |
 |       `explode`| ✅ | ❌ | - | return separate row for each subvalue |
 |       `extract`| ✅ | ❌ | - | extract target group from provided pattern |
 |   `extract_all`| ✅ | ❌ | - | extract all matches for provided pattern |
 |`extract_groups`| ✅ | ❌ | - | extract all groups for provided pattern |
-|       `lengths`| ✅ | ❌ | - | return byte length of each entry |
+|       `lengths`| ✅ | ❌ | ✅ | return byte length of each entry |
 |         `ljust`| ✅ | ❌ | - | left justify according to `width` |
 |        `lstrip`| ✅ | ❌ | - | remove leading subvalues |
 |       `replace`| ✅ | ❌ | - | replace first subvalue occurence with new value |
 |   `replace_all`| ✅ | ❌ | - | replace all subvalue occurences with new value |
 |         `rjust`| ✅ | ❌ | - | right justify according to `width` |
 |        `rstrip`| ✅ | ❌ | - | remove trailing subvalues |
-|         `slice`| ✅ | ❌ | - | create subslices of each value |
+|         `slice`| ✅ | ❌ | ✅ | create subslices of each value |
 |         `split`| ✅ | ❌ | - | split each value by a subvalue |
 |   `split_exact`| ✅ | ❌ | - | split each value by a subvalue using `n` splits |
 |        `splitn`| ✅ | ❌ | - | split each value by a subvalue at most `n` times |
-|   `starts_with`| ✅ | ✅ | - | check if value starts with subvalue |
+|   `starts_with`| ✅ | ✅ | ✅ | check if value starts with subvalue |
 |         `strip`| ✅ | ❌ | - | remove leading and trailing subvalues |
 |         `zfill`| ✅ | ❌ | - | fill the value with zeros |
 
